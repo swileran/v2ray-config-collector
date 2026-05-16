@@ -111,7 +111,6 @@ class ConnectivityValidator:
         sock.settimeout(self.timeout)
         try:
             sock.connect((server, port))
-            sock.close()
             return True
         except socket.timeout:
             return False, "timeout"
